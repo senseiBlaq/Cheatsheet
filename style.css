@@ -1,0 +1,134 @@
+body {
+    background-color: bisque;
+}
+
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* stacks up component  */
+    border: 2px solid green;
+    height: 750px;
+}
+
+.one{
+   margin: 10px;
+   /* flex: 1; */
+   border: 2px solid blue;
+   padding: 10px;
+   background-color: skyblue;
+   display: flex;
+   gap: 8px;
+}
+.one-a{
+    padding: 20px;
+    border: 2px solid yellow;
+    background-color: orange;
+    /* height: 100px; */
+    flex: 1;
+}
+.one-b{
+    /* padding: 20px; */
+    border: 2px solid yellow;
+    background-color: orange;
+    /* height: 100px; */
+    display: flex;
+    flex: 1;
+    gap: 8px;
+    justify-content: center;
+}
+.one-b-1{
+    border: 2px solid red;
+    margin: 5px;
+    /* height: 110px; */
+    background-color: rgba(65, 5, 5, 0.9);
+    flex: 1;   
+}
+.one-b-2{
+    border: 2px solid red;
+    margin: 5px;
+    /* height: 110px; */
+    background-color: rgb(65, 5, 5, 0.9);
+    flex: 1;
+
+}
+.one-c{
+    padding: 20px;
+    border: 2px solid yellow;
+    background-color: orange;
+    /* height: 100px; */
+    display: flex;
+    flex: 1;
+    gap: 8px;
+}
+
+.two{
+    flex: 1; /*shorthand for flex grow, shrink and basis    */
+    /* border: 2px solid brown;
+    background-color: rgb(65, 5, 5); */
+    margin: 10px;
+    display: flex;
+    gap: 8px;
+}
+.two-a{
+    flex-grow: 2;
+    border: 2px solid green;
+    background: rgb(172, 83, 83); 
+}
+.two-b {
+    /* background: purple; */
+    border: 2px;
+    flex-grow: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.two-b-1{
+    flex: 1;
+    background: rgb(83, 41, 41);
+    border: 2px;
+}
+.two-b-2{
+    flex: 1;
+    background: rgb(83, 41, 41);
+    border: 2px;
+}
+.three {
+    /* flex: 1; */
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid blue;
+    background-color: skyblue;
+    display: flex;
+    gap: 8px;
+}
+.three-a{
+    padding: 10px;
+    border: 2px solid purple;
+    background: rgb(117, 53, 117);
+    flex: 1;
+}
+.three-b {
+    /* padding: 10px; */
+    /* border: 2px solid purple; */
+    /* background: brown; */
+    display: flex;
+    gap: 8px;
+    flex: 1;
+}
+.three-b-1{
+    flex: 1;
+    background: brown;
+    border: 2px solid yellow;
+}
+.three-b-2 {
+    flex: 1;
+    background: brown;
+    border: 2px solid yellow;
+}
+.three-c {
+    padding: 10px;
+    border: 2px solid purple;
+    background: rgb(117, 53, 117);
+    flex: 1;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h4>SETTING UP GIT</h4> 
+    <p>git config --global user.name "Your Name"</p>
+    <p>git config --global user.email "yourname@example.com"</p>
+    <p>git config --global init.defaultBranch main</p>
+    <p>git config --global color.ui auto</p>
+    
+    <h4>CREATE AND LINK PUBLIC SSH KEY TO GITHUB</h4>
+    <p>ls ~/.ssh/id_ed25519.pub - check for ssh key</p>
+    <p>ssh-keygen -t ed25519 -C <youremail> - create ssh key</p>
+    <p>cat ~/.ssh/id_ed25519.pub - copy public ssh</p>
+    
+    <h4>GIT COMMANDS</h4>
+    <p>git clone - saves arepo on your local machine</p>
+    <p>git add filename.ext - adds a file to the staging area on local machine to allow tracking of changes</p>
+    <p>git commit -m "msg -comment " adds file to the local repo</p>
+    <p>git status</p>
+    <p>git push - adds to the repo server online</p>
+    <p>git pull - takes from the repo server onnline</p>
+    <p>git log</p>
+    <p>git reset</p>
+    
+    <p>git branch - shows branch active</p>
+    <p>git checkout -b branch_name - creates a new branch</p>
+    <p>git merge - merges a branch repo to master</p>
+</body>
+</html>
