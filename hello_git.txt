@@ -25,3 +25,8 @@ git reset
 git branch - shows branch active
 git checkout -b branch_name - creates a new branch 
 git merge - merges a branch repo to master 
+
+
+git log --oneline
+git fetch 
+git pull origin master 
