@@ -13,6 +13,7 @@ clip < C:\Users\jnram/.ssh/id_ed25519.pub - copy to clipboard (WINDOWS OS)
 
 
 GIT COMMANDS 
+git init
 git clone - saves  arepo on your local machine 
 git add filename.ext - adds a file to the staging area on local machine to allow tracking of changes 
 git commit -m "msg -comment  " adds file to the local repo 
@@ -21,6 +22,7 @@ git push - adds to the repo server online
 git pull - takes from the repo server onnline 
 git log  
 git reset
+git branch
 
 git branch - shows branch active
 git checkout -b branch_name - creates a new branch 
