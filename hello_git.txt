@@ -13,6 +13,7 @@ clip < C:\Users\jnram/.ssh/id_ed25519.pub - copy to clipboard (WINDOWS OS)
 
 
 GIT COMMANDS 
+echo "# test" >> filename.md - creates a file with the first line
 git init
 git clone - saves  arepo on your local machine 
 git add filename.ext - adds a file to the staging area on local machine to allow tracking of changes 
